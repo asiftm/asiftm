@@ -1,6 +1,6 @@
 
 <a href="https://github.com/asiftm/convoychat">
-  <img height=180 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=asiftm&layout=compact&langs_count=8&card_width=280&theme=onedark&hide_border=true&border_radius=10"/>
+  <img height=180 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=asiftm&layout=compact&hide_progress=true&langs_count=8&card_width=280&theme=onedark&hide_border=true&border_radius=10"/>
 </a>
 
   <a href="https://github.com/asiftm/github-readme-stats">
