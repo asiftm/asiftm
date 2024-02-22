@@ -4,7 +4,7 @@
   <img height=180 align="center" src="https://github-readme-stats.vercel.app/api?username=asiftm&show_icons=true&theme=onedark&hide_border=true&border_radius=10" />
 </a>
 <a href="https://github.com/asiftm/convoychat">
-  <img height=180 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=asiftm&layout=compact&langs_count=8&card_width=280&theme=onedark"/>
+  <img height=180 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=asiftm&layout=compact&langs_count=8&card_width=280&theme=onedark&hide_border=true&border_radius=10"/>
 </a>
 </div>
 <div align="center" bgcolor = "#507b95">
