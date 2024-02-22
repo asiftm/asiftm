@@ -8,6 +8,6 @@
 </a>
 </div>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=asiftm)](https://git.io/streak-stats)
+<a align = "center" href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=asiftm" alt="GitHub Streak" /></a>
 
 
