@@ -7,7 +7,8 @@
   <img height=180 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=asiftm&layout=compact&langs_count=8&card_width=280&theme=noctis_minimus" />
 </a>
 </div>
-
-<a align = "center" href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=asiftm" alt="GitHub Streak" /></a>
+<div align="center">
+  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=asiftm" alt="GitHub Streak" /></a>
+</div>
 
 
