@@ -1,5 +1,5 @@
 
-<div align="center" padding = 20px>
+<div align="center" margin = 20px>
   <a href="https://github.com/asiftm/github-readme-stats">
   <img height=180 align="center" src="https://github-readme-stats.vercel.app/api?username=asiftm&show_icons=true&theme=noctis_minimus" />
 </a>
