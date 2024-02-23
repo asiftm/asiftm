@@ -8,10 +8,7 @@
   </a>
 </div>
 
-
-<h3 align="center">A passionate frontend developer from India</h3>
-
-<h3 align="left">Connect with me:</h3>
+<h3 align="center">Connect with me:</h3>
 <p align="center">
   <a target="_blank"href="https://www.linkedin.com/in/asif-mahmud-asif/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
