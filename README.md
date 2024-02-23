@@ -5,12 +5,9 @@
 </div>
 
 <h3 align="center">Connect with me:</h3>
-<p align="center">
-  <a target="_blank"href="https://www.linkedin.com/in/asif-mahmud-asif/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
+<p align="center"><a target="_blank"href="https://www.linkedin.com/in/asif-mahmud-asif/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="mailto:asifmahmud0231@gmail.com?subject=Hello%20Asif,%20From%20Github"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
+  <a href="mailto:asifmahmud0231@gmail.com?subject=Hello%20Asif,%20From%20Github"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
