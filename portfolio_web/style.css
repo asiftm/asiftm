@@ -1,0 +1,102 @@
+:root{
+      --yellow:#f2b705;          /* hero */
+      --yellow-2:#f5c547;        /* accents */
+      --beige:#e9dcb4;           /* about */
+      --ink:#222;                /* text */
+      --slate:#2d3250;           /* skills & contact */
+      --slate-2:#1f243f;         /* footer bg */
+      --radius-lg:1.25rem;       /* 20px */
+      --radius-xl:1.75rem;       /* 28px */
+      --container:1140px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0; color:var(--ink); background:var(--yellow-2);
+      font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";
+      line-height:1.6;
+    }
+    h1,h2,h3{font-family:"Playfair Display", Georgia, "Times New Roman", serif; line-height:1.2; margin:0 0 .75rem}
+    h1{font-size:clamp(2.2rem, 5vw + .5rem, 4rem); font-weight:700}
+    h2{font-size:clamp(1.8rem, 2.5vw + .5rem, 3rem); font-weight:600}
+    p{margin:.5rem 0 0}
+    .container{max-width:var(--container); margin-inline:auto; padding: clamp(1rem, 2vw, 1.5rem);}
+
+    /* ---------- HERO ---------- */
+    .hero{background:var(--yellow);}
+    .hero .wrap{
+      display:grid;
+      grid-template-columns: 1fr 1.5fr;
+      align-items:center;
+      gap:clamp(1.5rem, 4vw, 3rem);
+      min-height:72vh;
+    }
+    .lead{font-size:clamp(1.05rem, 1.3vw + .5rem, 1.4rem); opacity:.85; font-weight:600}
+    .btn{
+      display:inline-block; margin-top:1.75rem; padding:.9rem 1.2rem; background:#fff; color:#333;
+      border:1.5px solid #333; border-radius:.4rem; text-decoration:none; font-weight:600;
+      transition:transform .15s ease, box-shadow .15s ease;
+    }
+    .btn:focus, .btn:hover{transform:translateY(-1px); box-shadow:0 6px 18px rgba(0,0,0,.08)}
+
+    .hero-grid{
+      display:grid; gap:1rem; align-items:stretch; justify-items:center;
+      grid-template-columns: 1fr 1fr; /* two thin cards left, tall portrait right */
+    }
+    .card{width:100%; border-radius:1rem; overflow:hidden; background:var(--yellow); display:block}
+    .card img{width:100%; height:100%; object-fit:cover; display:block }
+    .portrait{
+      grid-row:1 / span 2; grid-column:2; border-radius:1.25rem; overflow:hidden;width: 400px; max-width: 100%;
+    }
+    .tile{aspect-ratio: 4/5; border-radius:1rem}
+    .custom-transform {
+    width: 1071.18px;
+    height: 1428.23px;
+    object-fit: cover;
+    transform: scale(1.8) translateY(-10px);
+}
+
+
+    /* ---------- ABOUT ---------- */
+    .about{background:var(--beige)}
+    .about .wrap{display:grid; grid-template-columns: 1fr 1.1fr; gap:clamp(1.5rem, 4vw, 4rem); align-items:center}
+    .about .image{
+      background:;
+      border-radius:var(--radius-xl);
+      aspect-ratio: 4/3; position:relative; overflow:hidden;
+    }
+    .about .image::before{
+      content:""; position:absolute; inset:18% auto auto 14%; width:28%; aspect-ratio:1/1; background:var(--beige); border-radius:50% 50% 40% 50%/50% 50% 40% 50%; filter:blur(.2px); opacity:.95
+    }
+    .about p{max-width:64ch}
+
+    /* ---------- SKILLS ---------- */
+    .skills{background:var(--slate); color:#e8ebff}
+    .skills h2{color:#e8ebff; margin-bottom:2rem}
+    .skills .wrap{padding-block: clamp(2rem, 6vw, 4rem)}
+    .lists{display:grid; grid-template-columns: repeat(3, 1fr); gap:2rem}
+    .lists h3{font-style:italic; font-weight:600; margin-bottom:.75rem}
+    .lists ul{list-style:none; padding:0; margin:0}
+    .lists li{padding:.25rem 0; opacity:.9}
+
+    /* ---------- CONTACT ---------- */
+    .contact{background:var(--slate); color:#e8ebff; border-top:1px solid rgba(255,255,255,.06)}
+    .contact .wrap{display:grid; grid-template-columns: 1fr 1fr; align-items:center; gap:clamp(1.5rem, 4vw, 4rem)}
+    .contact .shot{border-radius:var(--radius-xl); overflow:hidden; aspect-ratio: 4/3; background:var(--slate-2)}
+    .contact .shot img{width:100%; height:100%; object-fit:cover; display:block }
+
+    /* ---------- UTIL ---------- */
+    .section{padding-block: clamp(2.5rem, 7vw, 5rem)}
+    .muted{opacity:.9}
+
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 980px){
+      .hero .wrap, .about .wrap, .contact .wrap{grid-template-columns:1fr}
+      .portrait{grid-column:auto; grid-row:auto}
+      .hero-grid{grid-template-columns: 1fr 1fr}
+    }
+    @media (max-width: 640px){
+      .lists{grid-template-columns: 1fr;}
+      .hero-grid{grid-template-columns:1fr;}
+      .tile{aspect-ratio: 16/10}
+    }
